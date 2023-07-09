@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Travel Destination Guide</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div class="image">
+      <h1>Travel Destination Guide</h1>
+      <p>Explore the World's Most Exquisite Destinations</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#destinations">Destinations</a></li>
+      <li><a href="#tips">Travel Tips</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#" id="visiter-link">Visiter Count</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="home">
+      <h2>Welcome to the Travel Destination Guide!</h2>
+      <p>Whether you're a seasoned traveler or planning your first trip, our guide is here to inspire and assist you in discovering amazing destinations around the globe. We provide detailed information, stunning visuals, and helpful tips to make your travel experiences unforgettable.</p>
+    </section>
+
+    <section id="destinations">
+      <h2>Popular Destinations</h2>
+      <div class="destination-card">
+        <img src="img12.jpeg" alt="Japan">
+        <div class="destination-info">
+          <h3>Hokkaido, Japan</h3>
+          <p>Hokkaido, the northernmost island of Japan, is a captivating travel destination for snow enthusiasts. With its picturesque landscapes and abundant snowfall, Hokkaido offers a winter wonderland experience like no other. From the powdery slopes of Niseko to the charming hot springs of Noboribetsu, this region beckons visitors with its natural beauty and thrilling winter activities. Embrace the enchanting snow-covered landscapes and indulge in exhilarating adventures in Hokkaido, a perfect destination for snow lovers.</p>
+          <a href="https://en.wikipedia.org/wiki/Hokkaido Japan" target="_blank">Details</a>
+        </div>
+      </div>
+      
+      <div class="destination-card">
+        <img src="img13.jpeg" alt="Santorini, Greece">
+        <div class="destination-info">
+          <h3>Santorini, Greece</h3>
+          <p>Santorini, an enchanting island in Greece, is renowned for its awe-inspiring beauty and captivating views of the Aegean Sea. With its iconic white-washed buildings perched atop rugged cliffs, Santorini offers a unique blend of natural splendor and cultural charm. Explore the narrow cobblestone streets of its picturesque villages, indulge in delectable Greek cuisine, and witness mesmerizing sunsets that paint the sky with hues of orange and pink. Whether you're lounging on the stunning beaches or exploring ancient archaeological sites, Santorini promises an unforgettable experience in the embrace of the azure ocean.</p>
+          <a href="https://en.wikipedia.org/wiki/Santorini Greece" target="_blank">Details</a>
+        </div>
+      </div>
+
+      <div class="destination-card">
+        <img src="img3.jpeg" alt="Iguazu Falls, Argentina and Brazil">
+        <div class="destination-info">
+          <h3>Iguazu Falls, Argentina and Brazil</h3>
+          <p>Iguazu Falls, located on the border between Argentina and Brazil, is a mesmerizing natural wonder that will leave you in awe. With its thunderous roar and magnificent cascades, Iguazu Falls is one of the world's most spectacular waterfall systems. Experience the sheer power of nature as you explore the network of over 275 individual falls, surrounded by lush tropical rainforests. Feel the mist on your skin as you navigate through walkways and witness panoramic views of this breathtaking spectacle. Immerse yourself in the raw beauty of Iguazu Falls, a destination that promises an unforgettable encounter with the force and grandeur of nature.</p>
+          <a href="https://en.wikipedia.org/wiki/Iguazu Falls Argentina and Brazil" target="_blank">Details</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="tips">
+      <h2>Travel Tips</h2>
+      <ul>
+        <li>Pack light and smart to make your travels more convenient.</li>
+        <li>Research local customs and traditions to respect the culture of the destination.</li>
+        <li>Carry essential travel documents, including passports and visas.</li>
+        <li>Stay hydrated and take care of your health while on the go.</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <p>Have a question or feedback? Feel free to reach out to us!</p>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Your name" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Your email" required>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Your message" required></textarea>
+        <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <section id="special-offer">
+      <h2>Special Offer</h2>
+      <p>Don't miss out on our special offer! Book your next trip now and get exclusive discounts. Limited time only!</p>
+      <div id="countdown-timer"></div>
+      <div id="visiter-counter-container">
+          <p id="visiter-count">0 Visiters</p>
+        </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="social-media">
+      <a href="https://www.instagram.com/" target="_blank"><img src="instagram.jpeg" alt="Instagram"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="fb.jpeg" alt="Facebook"></a>
+      <a href="https://www.twitter.com/" target="_blank"><img src="twitter.png" alt="Twitter"></a>
+    </div>
+    <p>&copy; 2023 Travel Destination Guide. All rights reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
